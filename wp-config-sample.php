@@ -78,6 +78,9 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', zh_CN);
+define("FS_METHOD", "direct");
+define("FS_CHMOD_DIR", 0777);
+define("FS_CHMOD_FILE", 0777);
 
 /* That's all, stop editing! Happy blogging. */
 
